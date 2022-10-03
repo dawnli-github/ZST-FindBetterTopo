@@ -1,0 +1,32 @@
+// The DME Tree
+digraph plotTree {
+	0 [label="POINT (197 205)"]
+	2 [label="POINT (197 280)"]
+	0 -> 2
+	6 [label="POINT (197 336)"]
+	2 -> 6
+	14 [label="POINT (197 388)"]
+	6 -> 14
+	13 [label="POINT (183 298)"]
+	6 -> 13
+	5 [label="POINT (140 258)"]
+	2 -> 5
+	12 [label="POINT (123 258)"]
+	5 -> 12
+	26 [label="POINT (111 258)"]
+	12 -> 26
+	25 [label="POINT (132 261)"]
+	12 -> 25
+	11 [label="POINT (155 244)"]
+	5 -> 11
+	1 [label="POINT (205 144)"]
+	0 -> 1
+	4 [label="POINT (215 130)"]
+	1 -> 4
+	10 [label="POINT (248 207)"]
+	4 -> 10
+	9 [label="POINT (215 20)"]
+	4 -> 9
+	3 [label="POINT (71 144)"]
+	1 -> 3
+}
