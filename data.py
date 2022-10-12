@@ -1,5 +1,4 @@
 from shapely.geometry import Point, LineString, Polygon
-from numpy import asarray
 
 
 class DMENode:
@@ -21,3 +20,8 @@ class DMENode:
         self.total_wl = total_wl
         self.name = ""
         self.id = 0
+
+    def log(self, title="Root"):
+        print("\n[" + title + "] sub wirelength: ", self.sub_wl)
+        print("[" + title + "] total: ", self.total_wl, "\n")
+        print("------------------------------------")
