@@ -125,6 +125,17 @@ def biPartitionTopo(nodes):
         return dmeMerge(left_node, right_node)
 
 
+def topClusterTopo(nodes):
+    if len(nodes) > 2:
+        cluster_nodes = biPartitionNodes(nodes)
+        left_node = topClusterTopo(cluster_nodes[0])
+        right_node = topClusterTopo(cluster_nodes[1])
+        return topoMerge(left_node,right_node)
+    if len(nodes) == 2:
+        return topoMerge(nodes[0],nodes[1])
+    return nodes[0]
+
+
 def orderTopo(nodes):
     if len(nodes) == 1:
         return nodes[0]
@@ -158,13 +169,14 @@ def enumTopo(nodes, sub_list=[], total_list=[]):
             enumTopo(loop_nodes, sub_list, total_list)
 
 
+
 # Test
 
 seed = 0
 seed_all(seed)
 node_num = 100
-x_bound = node_num * 2
-y_bound = node_num * 2
+x_bound = node_num * 4
+y_bound = node_num * 4
 
 nodes = genRandomNode(node_num, x_bound, y_bound)
 # nodes = genTestNode()
@@ -185,6 +197,13 @@ bp_test_nodes = copy.deepcopy(nodes)
 bp_root = biPartitionTopo(bp_test_nodes)
 bp_root.log("BP")
 plotDME(bp_root, x_bound, y_bound, "BP")
+
+# Top-Cluster Topo
+tc_test_nodes = copy.deepcopy(nodes)
+tc_root = topClusterTopo(tc_test_nodes)
+DME(tc_root)
+tc_root.log("Top-Cluster")
+plotDME(tc_root, x_bound, y_bound, "Top-Cluster")
 
 # # Random Topo
 # min_sub_wl = float('inf')

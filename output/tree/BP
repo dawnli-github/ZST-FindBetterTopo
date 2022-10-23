@@ -1,400 +1,400 @@
 // The DME Tree
 digraph {
-	0 [label="POINT (99 96.5)"]
-	2 [label="POINT (60.5 103.5)"]
+	0 [label="POINT (188 151.5)"]
+	2 [label="POINT (188 107)"]
 	0 -> 2
-	6 [label="POINT (60.5 57.5)"]
+	6 [label="POINT (139.5 87)"]
 	2 -> 6
-	14 [label="POINT (60 72.5)"]
+	14 [label="POINT (161.5 104)"]
 	6 -> 14
-	30 [label="POINT (40.5 49)"]
+	30 [label="POINT (179.5 57)"]
 	14 -> 30
-	62 [label="POINT (23.5 49)"]
+	62 [label="POINT (192.75 43.75)"]
 	30 -> 62
-	126 [label="POINT (11 49)"]
+	126 [label="POINT (205.5 31)"]
 	62 -> 126
-	254 [label="POINT (16 48)"]
+	254 [label="POINT (215 20)"]
 	126 -> 254
-	253 [label="POINT (5 49)"]
+	253 [label="POINT (200 46)"]
 	126 -> 253
-	125 [label="POINT (25 57)"]
+	125 [label="POINT (190 72.5)"]
 	62 -> 125
-	252 [label="POINT (17 56)"]
+	252 [label="POINT (189 59)"]
 	125 -> 252
-	251 [label="POINT (25 66)"]
+	251 [label="POINT (190 87)"]
 	125 -> 251
-	61 [label="POINT (53.5 47)"]
+	61 [label="POINT (133 57)"]
 	30 -> 61
-	124 [label="POINT (53.5 47)"]
+	124 [label="POINT (127.25 62.75)"]
 	61 -> 124
-	250 [label="POINT (74 47)"]
+	250 [label="POINT (138 59)"]
 	124 -> 250
-	249 [label="POINT (48 62)"]
+	249 [label="POINT (122 72)"]
 	124 -> 249
-	123 [label="POINT (48 47)"]
+	123 [label="POINT (133 31)"]
 	61 -> 123
-	29 [label="POINT (60 97.5)"]
+	29 [label="POINT (161.5 150.5)"]
 	14 -> 29
-	60 [label="POINT (31 97.5)"]
+	60 [label="POINT (161.5 222)"]
 	29 -> 60
-	122 [label="POINT (21.5 88)"]
+	122 [label="POINT (159.75 223.75)"]
 	60 -> 122
-	246 [label="POINT (21 83)"]
+	246 [label="POINT (170 218)"]
 	122 -> 246
-	245 [label="POINT (25 90)"]
+	245 [label="POINT (147 227)"]
 	122 -> 245
-	121 [label="POINT (31 122)"]
+	121 [label="POINT (181 222)"]
 	60 -> 121
-	59 [label="POINT (73.5 125)"]
+	59 [label="POINT (150.5 139.5)"]
 	29 -> 59
-	120 [label="POINT (73 125)"]
+	120 [label="POINT (155.75 144.75)"]
 	59 -> 120
-	242 [label="POINT (73 113)"]
+	242 [label="POINT (148 94)"]
 	120 -> 242
-	241 [label="POINT (66 130)"]
+	241 [label="POINT (197 162)"]
 	120 -> 241
-	119 [label="POINT (81 130)"]
+	119 [label="POINT (97 124)"]
 	59 -> 119
-	13 [label="POINT (60.5 22)"]
+	13 [label="POINT (54.5 87)"]
 	6 -> 13
-	28 [label="POINT (87.5 20.5)"]
+	28 [label="POINT (53.5 67)"]
 	13 -> 28
-	58 [label="POINT (95 20.5)"]
+	58 [label="POINT (53.5 22.5)"]
 	28 -> 58
-	118 [label="POINT (98.25 17.25)"]
+	118 [label="POINT (53.5 19)"]
 	58 -> 118
-	238 [label="POINT (107 10)"]
+	238 [label="POINT (37 13)"]
 	118 -> 238
-	237 [label="POINT (94 29)"]
+	237 [label="POINT (76 19)"]
 	118 -> 237
-	117 [label="POINT (95 43)"]
+	117 [label="POINT (46 41)"]
 	58 -> 117
-	57 [label="POINT (76 30.5)"]
+	57 [label="POINT (61.5 75)"]
 	28 -> 57
-	116 [label="POINT (76 29)"]
+	116 [label="POINT (32 73.5)"]
 	57 -> 116
-	234 [label="POINT (79 25)"]
+	234 [label="POINT (31 51)"]
 	116 -> 234
-	233 [label="POINT (69 29)"]
+	233 [label="POINT (32 97)"]
 	116 -> 233
-	115 [label="POINT (72 35)"]
+	115 [label="POINT (96 95)"]
 	57 -> 115
-	27 [label="POINT (38.5 22)"]
+	27 [label="POINT (54.5 117)"]
 	13 -> 27
-	56 [label="POINT (43.25 26.75)"]
+	56 [label="POINT (42.25 104.75)"]
 	27 -> 56
-	114 [label="POINT (44.25 27.75)"]
+	114 [label="POINT (30 99)"]
 	56 -> 114
-	230 [label="POINT (38 9)"]
+	230 [label="POINT (11 99)"]
 	114 -> 230
-	229 [label="POINT (61 36)"]
+	229 [label="POINT (35 113)"]
 	114 -> 229
-	113 [label="POINT (23 20)"]
+	113 [label="POINT (51 133)"]
 	56 -> 113
-	55 [label="POINT (18 22)"]
+	55 [label="POINT (54.5 153)"]
 	27 -> 55
-	112 [label="POINT (10 23)"]
+	112 [label="POINT (71 153)"]
 	55 -> 112
-	226 [label="POINT (3 23)"]
+	226 [label="POINT (71 144)"]
 	112 -> 226
-	225 [label="POINT (15 25)"]
+	225 [label="POINT (75 158)"]
 	112 -> 225
-	111 [label="POINT (18 6)"]
+	111 [label="POINT (42 166)"]
 	55 -> 111
-	5 [label="POINT (54.5 163.5)"]
+	5 [label="POINT (259 107)"]
 	2 -> 5
-	12 [label="POINT (17.5 163.5)"]
+	12 [label="POINT (259 168.5)"]
 	5 -> 12
-	26 [label="POINT (8 169.5)"]
+	26 [label="POINT (252 189.5)"]
 	12 -> 26
-	54 [label="POINT (8 175)"]
+	54 [label="POINT (267 173)"]
 	26 -> 54
-	110 [label="POINT (18.5 173)"]
+	110 [label="POINT (267 131)"]
 	54 -> 110
-	222 [label="POINT (15 173)"]
+	222 [label="POINT (267 120)"]
 	110 -> 222
-	221 [label="POINT (22 173)"]
+	221 [label="POINT (268 141)"]
 	110 -> 221
-	109 [label="POINT (8 179)"]
+	109 [label="POINT (250.75 189.25)"]
 	54 -> 109
-	220 [label="POINT (20 179)"]
+	220 [label="POINT (252 170)"]
 	109 -> 220
-	219 [label="POINT (4 187)"]
+	219 [label="POINT (248 207)"]
 	109 -> 219
-	53 [label="POINT (5 156)"]
+	53 [label="POINT (252 238.5)"]
 	26 -> 53
-	108 [label="POINT (8 155)"]
+	108 [label="POINT (278 238.5)"]
 	53 -> 108
-	218 [label="POINT (9 155)"]
+	218 [label="POINT (278 229)"]
 	108 -> 218
-	217 [label="POINT (8 156)"]
+	217 [label="POINT (282 244)"]
 	108 -> 217
-	107 [label="POINT (0 156)"]
+	107 [label="POINT (230 252)"]
 	53 -> 107
-	25 [label="POINT (17.5 151)"]
+	25 [label="POINT (310 168.5)"]
 	12 -> 25
-	52 [label="POINT (31 151)"]
+	52 [label="POINT (310 133)"]
 	25 -> 52
-	106 [label="POINT (31 153)"]
+	106 [label="POINT (296 130.5)"]
 	52 -> 106
-	214 [label="POINT (23 152)"]
+	214 [label="POINT (294 123)"]
 	106 -> 214
-	213 [label="POINT (31 162)"]
+	213 [label="POINT (296 140)"]
 	106 -> 213
-	105 [label="POINT (31 140)"]
+	105 [label="POINT (336 133)"]
 	52 -> 105
-	51 [label="POINT (9.5 141)"]
+	51 [label="POINT (313.5 182)"]
 	25 -> 51
-	104 [label="POINT (11 141)"]
+	104 [label="POINT (334.5 182)"]
 	51 -> 104
-	210 [label="POINT (15 140)"]
+	210 [label="POINT (322 171)"]
 	104 -> 210
-	209 [label="POINT (11 146)"]
+	209 [label="POINT (358 182)"]
 	104 -> 209
-	103 [label="POINT (5 139)"]
+	103 [label="POINT (301 214)"]
 	51 -> 103
-	11 [label="POINT (70 172.5)"]
+	11 [label="POINT (302 74)"]
 	5 -> 11
-	24 [label="POINT (82.5 172.5)"]
+	24 [label="POINT (276.5 48.5)"]
 	11 -> 24
-	50 [label="POINT (82.5 158)"]
+	50 [label="POINT (275.5 41.5)"]
 	24 -> 50
-	102 [label="POINT (82.5 141)"]
+	102 [label="POINT (275.5 35)"]
 	50 -> 102
-	206 [label="POINT (85 138)"]
+	206 [label="POINT (280 7)"]
 	102 -> 206
-	205 [label="POINT (77 141)"]
+	205 [label="POINT (243 35)"]
 	102 -> 205
-	101 [label="POINT (83 180)"]
+	101 [label="POINT (250 55)"]
 	50 -> 101
-	49 [label="POINT (84 186)"]
+	49 [label="POINT (295.5 59)"]
 	24 -> 49
-	100 [label="POINT (71 186)"]
+	100 [label="POINT (302.5 59)"]
 	49 -> 100
-	202 [label="POINT (74 180)"]
+	202 [label="POINT (313 59)"]
 	100 -> 202
-	201 [label="POINT (62 186)"]
+	201 [label="POINT (294 61)"]
 	100 -> 201
-	99 [label="POINT (98 194)"]
+	99 [label="POINT (286 51)"]
 	49 -> 99
-	23 [label="POINT (52 164.5)"]
+	23 [label="POINT (325.5 74)"]
 	11 -> 23
-	48 [label="POINT (52 150)"]
+	48 [label="POINT (361.5 74)"]
 	23 -> 48
-	98 [label="POINT (52 150)"]
+	98 [label="POINT (389.5 74)"]
 	48 -> 98
-	198 [label="POINT (52 141)"]
+	198 [label="POINT (387 66)"]
 	98 -> 198
-	197 [label="POINT (48 155)"]
+	197 [label="POINT (400 74)"]
 	98 -> 197
-	97 [label="POINT (52 154)"]
+	97 [label="POINT (361 112)"]
 	48 -> 97
-	47 [label="POINT (51.5 178.5)"]
+	47 [label="POINT (323 112)"]
 	23 -> 47
-	96 [label="POINT (51.5 183)"]
+	96 [label="POINT (338 112)"]
 	47 -> 96
-	194 [label="POINT (47 183)"]
+	194 [label="POINT (327 104)"]
 	96 -> 194
-	193 [label="POINT (53 186)"]
+	193 [label="POINT (357 112)"]
 	96 -> 193
-	95 [label="POINT (55 173)"]
+	95 [label="POINT (290 113)"]
 	47 -> 95
-	1 [label="POINT (146 106)"]
+	1 [label="POINT (151.5 308)"]
 	0 -> 1
-	4 [label="POINT (146 53)"]
+	4 [label="POINT (211 308)"]
 	1 -> 4
-	10 [label="POINT (163.25 35.75)"]
+	10 [label="POINT (239 308)"]
 	4 -> 10
-	22 [label="POINT (160 45.5)"]
+	22 [label="POINT (298 308)"]
 	10 -> 22
-	46 [label="POINT (160 59)"]
+	46 [label="POINT (325 308)"]
 	22 -> 46
-	94 [label="POINT (164 64)"]
+	94 [label="POINT (325 308)"]
 	46 -> 94
-	190 [label="POINT (158 64)"]
+	190 [label="POINT (324 273)"]
 	94 -> 190
-	189 [label="POINT (168 66)"]
+	189 [label="POINT (361 308)"]
 	94 -> 189
-	93 [label="POINT (149 59)"]
+	93 [label="POINT (338 322)"]
 	46 -> 93
-	188 [label="POINT (149 55)"]
+	188 [label="POINT (342 320)"]
 	93 -> 188
-	187 [label="POINT (147 61)"]
+	187 [label="POINT (338 328)"]
 	93 -> 187
-	45 [label="POINT (152 32)"]
+	45 [label="POINT (291.5 326.5)"]
 	22 -> 45
-	92 [label="POINT (154 32)"]
+	92 [label="POINT (291.5 348)"]
 	45 -> 92
-	186 [label="POINT (156 29)"]
+	186 [label="POINT (308 348)"]
 	92 -> 186
-	185 [label="POINT (154 37)"]
+	185 [label="POINT (276 349)"]
 	92 -> 185
-	91 [label="POINT (147 30)"]
+	91 [label="POINT (280 300)"]
 	45 -> 91
-	21 [label="POINT (179.5 34)"]
+	21 [label="POINT (215.75 331.25)"]
 	10 -> 21
-	44 [label="POINT (179.5 37)"]
+	44 [label="POINT (197 372)"]
 	21 -> 44
-	90 [label="POINT (179.5 37)"]
+	90 [label="POINT (197 373)"]
 	44 -> 90
-	182 [label="POINT (200 37)"]
+	182 [label="POINT (200 361)"]
 	90 -> 182
-	181 [label="POINT (178 56)"]
+	181 [label="POINT (197 388)"]
 	90 -> 181
-	89 [label="POINT (180 56)"]
+	89 [label="POINT (204 363)"]
 	44 -> 89
-	43 [label="POINT (186.5 28.5)"]
+	43 [label="POINT (226 296)"]
 	21 -> 43
-	88 [label="POINT (193 28.5)"]
+	88 [label="POINT (224.5 300)"]
 	43 -> 88
-	178 [label="POINT (193 24)"]
+	178 [label="POINT (249 300)"]
 	88 -> 178
-	177 [label="POINT (193 33)"]
+	177 [label="POINT (217 317)"]
 	88 -> 177
-	87 [label="POINT (186 18)"]
+	87 [label="POINT (226 266)"]
 	43 -> 87
-	9 [label="POINT (115 53)"]
+	9 [label="POINT (157 290.5)"]
 	4 -> 9
-	20 [label="POINT (115 73)"]
+	20 [label="POINT (148.5 258)"]
 	9 -> 20
-	42 [label="POINT (126 72)"]
+	42 [label="POINT (163 247.5)"]
 	20 -> 42
-	86 [label="POINT (133 68.5)"]
+	86 [label="POINT (163.5 244)"]
 	42 -> 86
-	174 [label="POINT (133 66)"]
+	174 [label="POINT (169 241)"]
 	86 -> 174
-	173 [label="POINT (134 70)"]
+	173 [label="POINT (155 244)"]
 	86 -> 173
-	85 [label="POINT (126 85)"]
+	85 [label="POINT (163 260)"]
 	42 -> 85
-	41 [label="POINT (115 81)"]
+	41 [label="POINT (126.5 258)"]
 	20 -> 41
-	84 [label="POINT (105 81)"]
+	84 [label="POINT (128 264.5)"]
 	41 -> 84
-	170 [label="POINT (111 80)"]
+	170 [label="POINT (132 261)"]
 	84 -> 170
-	169 [label="POINT (98 81)"]
+	169 [label="POINT (128 272)"]
 	84 -> 169
-	83 [label="POINT (122 91)"]
+	83 [label="POINT (111 258)"]
 	41 -> 83
-	19 [label="POINT (113.5 48.5)"]
+	19 [label="POINT (157 316)"]
 	9 -> 19
-	40 [label="POINT (113.5 24)"]
+	40 [label="POINT (157 338.5)"]
 	19 -> 40
-	82 [label="POINT (113.5 23)"]
+	82 [label="POINT (157 360)"]
 	40 -> 82
-	166 [label="POINT (121 17)"]
+	166 [label="POINT (166 360)"]
 	82 -> 166
-	165 [label="POINT (100 23)"]
+	165 [label="POINT (149 361)"]
 	82 -> 165
-	81 [label="POINT (125 27)"]
+	81 [label="POINT (161 312)"]
 	40 -> 81
-	39 [label="POINT (129 53.5)"]
+	39 [label="POINT (165 293.5)"]
 	19 -> 39
-	80 [label="POINT (129 49.5)"]
+	80 [label="POINT (165 282)"]
 	39 -> 80
-	162 [label="POINT (129 35)"]
+	162 [label="POINT (170 276)"]
 	80 -> 162
-	161 [label="POINT (133 60)"]
+	161 [label="POINT (154 282)"]
 	80 -> 161
-	79 [label="POINT (145 56)"]
+	79 [label="POINT (183 298)"]
 	39 -> 79
-	3 [label="POINT (150.5 129)"]
+	3 [label="POINT (65.5 327.5)"]
 	1 -> 3
-	8 [label="POINT (150.5 171.5)"]
+	8 [label="POINT (53.5 301)"]
 	3 -> 8
-	18 [label="POINT (158 177.5)"]
+	18 [label="POINT (58.5 297)"]
 	8 -> 18
-	38 [label="POINT (169.5 185)"]
+	38 [label="POINT (63 297)"]
 	18 -> 38
-	78 [label="POINT (171 163)"]
+	78 [label="POINT (63 262.5)"]
 	38 -> 78
-	158 [label="POINT (171 160)"]
+	158 [label="POINT (63 245)"]
 	78 -> 158
-	157 [label="POINT (169 164)"]
+	157 [label="POINT (63 280)"]
 	78 -> 157
-	77 [label="POINT (169.5 185)"]
+	77 [label="POINT (99 308)"]
 	38 -> 77
-	156 [label="POINT (154 174)"]
+	156 [label="POINT (104 308)"]
 	77 -> 156
-	155 [label="POINT (181 200)"]
+	155 [label="POINT (96 310)"]
 	77 -> 155
-	37 [label="POINT (158 150)"]
+	37 [label="POINT (46.5 325)"]
 	18 -> 37
-	76 [label="POINT (154.5 150)"]
+	76 [label="POINT (51 325)"]
 	37 -> 76
-	154 [label="POINT (140 150)"]
+	154 [label="POINT (48 316)"]
 	76 -> 154
-	153 [label="POINT (156 163)"]
+	153 [label="POINT (63 325)"]
 	76 -> 153
-	75 [label="POINT (162 136)"]
+	75 [label="POINT (36 331)"]
 	37 -> 75
-	17 [label="POINT (120 171.5)"]
+	17 [label="POINT (19 301)"]
 	8 -> 17
-	36 [label="POINT (120 156.5)"]
+	36 [label="POINT (28.5 305)"]
 	17 -> 36
-	74 [label="POINT (120 148.5)"]
+	74 [label="POINT (29.5 305)"]
 	36 -> 74
-	150 [label="POINT (120 143)"]
+	150 [label="POINT (46 305)"]
 	74 -> 150
-	149 [label="POINT (124 150)"]
+	149 [label="POINT (18 310)"]
 	74 -> 149
-	73 [label="POINT (108 158)"]
+	73 [label="POINT (23 293)"]
 	36 -> 73
-	35 [label="POINT (118 176)"]
+	35 [label="POINT (11 301)"]
 	17 -> 35
-	72 [label="POINT (118 176)"]
+	72 [label="POINT (8 313)"]
 	35 -> 72
-	146 [label="POINT (138 174)"]
+	146 [label="POINT (0 313)"]
 	72 -> 146
-	145 [label="POINT (100 180)"]
+	145 [label="POINT (16 313)"]
 	72 -> 145
-	71 [label="POINT (136 180)"]
+	71 [label="POINT (11 278)"]
 	35 -> 71
-	7 [label="POINT (158.5 109)"]
+	7 [label="POINT (65.5 367)"]
 	3 -> 7
-	16 [label="POINT (170.5 81.5)"]
+	16 [label="POINT (87 367)"]
 	7 -> 16
-	34 [label="POINT (184 81.5)"]
+	34 [label="POINT (110 367)"]
 	16 -> 34
-	70 [label="POINT (184 94)"]
+	70 [label="POINT (110 361)"]
 	34 -> 70
-	142 [label="POINT (179 91)"]
+	142 [label="POINT (110 347)"]
 	70 -> 142
-	141 [label="POINT (184 102)"]
+	141 [label="POINT (107 372)"]
 	70 -> 141
-	69 [label="POINT (200 77)"]
+	69 [label="POINT (124 373)"]
 	34 -> 69
-	33 [label="POINT (163.75 74.75)"]
+	33 [label="POINT (75 373)"]
 	16 -> 33
-	68 [label="POINT (167.5 84)"]
+	68 [label="POINT (77 371)"]
 	33 -> 68
-	138 [label="POINT (175 84)"]
+	138 [label="POINT (94 367)"]
 	68 -> 138
-	137 [label="POINT (161 85)"]
+	137 [label="POINT (71 386)"]
 	68 -> 137
-	67 [label="POINT (148 70)"]
+	67 [label="POINT (50 373)"]
 	33 -> 67
-	15 [label="POINT (118.5 109)"]
+	15 [label="POINT (38 372)"]
 	7 -> 15
-	32 [label="POINT (135 107)"]
+	32 [label="POINT (38 347)"]
 	15 -> 32
-	66 [label="POINT (141 107)"]
+	66 [label="POINT (39.5 347)"]
 	32 -> 66
-	134 [label="POINT (150 107)"]
+	134 [label="POINT (45 347)"]
 	66 -> 134
-	133 [label="POINT (139 114)"]
+	133 [label="POINT (37 350)"]
 	66 -> 133
-	65 [label="POINT (124 103)"]
+	65 [label="POINT (31 347)"]
 	32 -> 65
-	31 [label="POINT (108.5 109)"]
+	31 [label="POINT (32.5 374)"]
 	15 -> 31
-	64 [label="POINT (115 116)"]
+	64 [label="POINT (41 366)"]
 	31 -> 64
-	130 [label="POINT (122 113)"]
+	130 [label="POINT (41 358)"]
 	64 -> 130
-	129 [label="POINT (115 126)"]
+	129 [label="POINT (47 368)"]
 	64 -> 129
-	63 [label="POINT (85 109)"]
+	63 [label="POINT (8 374)"]
 	31 -> 63
 }

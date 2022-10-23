@@ -163,6 +163,19 @@ def dividNodes(nodes, num_limit=16):
     return cluster_nodes
 
 
+def biPartitionNodes(nodes):
+    cluster_num = 2
+    locations = []
+    for node in nodes:
+        locations.append(midPoint(node))
+    kmeans = KMeans(n_clusters=cluster_num).fit(locations)
+    cluster_nodes = [[] for _ in range(cluster_num)]
+    for i in range(len(nodes)):
+        label = kmeans.labels_[i]
+        cluster_nodes[label].append(nodes[i])
+    return cluster_nodes
+
+
 # CTS Method
 
 
@@ -221,6 +234,8 @@ def dmeMerge(left: DMENode, right: DMENode):
 
 def topoMerge(left: DMENode, right: DMENode):
     father = DMENode(left=left, right=right)
+    left.father = father
+    right.father = father
     return father
 
 
