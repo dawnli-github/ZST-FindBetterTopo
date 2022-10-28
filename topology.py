@@ -130,9 +130,9 @@ def topClusterTopo(nodes):
         cluster_nodes = biPartitionNodes(nodes)
         left_node = topClusterTopo(cluster_nodes[0])
         right_node = topClusterTopo(cluster_nodes[1])
-        return topoMerge(left_node,right_node)
+        return topoMerge(left_node, right_node)
     if len(nodes) == 2:
-        return topoMerge(nodes[0],nodes[1])
+        return topoMerge(nodes[0], nodes[1])
     return nodes[0]
 
 
@@ -169,66 +169,32 @@ def enumTopo(nodes, sub_list=[], total_list=[]):
             enumTopo(loop_nodes, sub_list, total_list)
 
 
+def testDME(nodes, x_bound, y_bound, msg, func, need_DME=False):
+    timer = Timer()
+    timer.start()
+    test_nodes = copy.deepcopy(nodes)
+    root = func(test_nodes)
+    if (need_DME):
+        DME(root)
+    root.log(msg)
+    # plotDME(root, x_bound, y_bound, msg)
+    timer.printTime(msg)
 
 # Test
-
 seed = 0
 seed_all(seed)
-node_num = 100
-x_bound = node_num * 4
-y_bound = node_num * 4
+node_num = 25000
+x_bound = node_num * 150
+y_bound = node_num * 150
 
 nodes = genRandomNode(node_num, x_bound, y_bound)
 # nodes = genTestNode()
 
-# # KNN Topo
-# knn_test_nodes = copy.deepcopy(nodes)
-# knn_root = knnTopo(knn_test_nodes)
-# knn_root.log("Knn")
-
 # Cluster-KNN Topo
-cl_knn_test_nodes = copy.deepcopy(nodes)
-cl_knn_root = clusterKnnTopo(cl_knn_test_nodes)
-cl_knn_root.log("Cluster Knn")
-plotDME(cl_knn_root, x_bound, y_bound, "CL-KNN")
+testDME(nodes, x_bound, y_bound,"Cluster Knn",clusterKnnTopo)
 
 # Bi-Partition Topo
-bp_test_nodes = copy.deepcopy(nodes)
-bp_root = biPartitionTopo(bp_test_nodes)
-bp_root.log("BP")
-plotDME(bp_root, x_bound, y_bound, "BP")
+testDME(nodes, x_bound, y_bound,"Bi-Partition",biPartitionTopo)
 
 # Top-Cluster Topo
-tc_test_nodes = copy.deepcopy(nodes)
-tc_root = topClusterTopo(tc_test_nodes)
-DME(tc_root)
-tc_root.log("Top-Cluster")
-plotDME(tc_root, x_bound, y_bound, "Top-Cluster")
-
-# # Random Topo
-# min_sub_wl = float('inf')
-# min_total_wl = float('inf')
-# while True:
-#     seed += 1
-#     random.seed(seed)
-#     test_nodes = copy.deepcopy(nodes)
-#     while len(test_nodes) > 1:
-#         random.shuffle(test_nodes)
-#         node1 = test_nodes.pop()
-#         random.shuffle(test_nodes)
-#         node2 = test_nodes.pop()
-#         father = dmeMerge(node1, node2)
-#         test_nodes.append(father)
-#     root = test_nodes[0]
-#     if (root.sub_wl < min_sub_wl):
-#         min_sub_wl = root.sub_wl
-#     if (root.total_wl < min_total_wl):
-#         min_total_wl = root.total_wl
-#         print("Order total: ", min_total_wl)
-#         root.log("Random")
-
-# min_sub_wl = []
-# min_total_wl = []
-# enumTopo(nodes,min_sub_wl,min_total_wl)
-# print("Enum sub: ", min(min_sub_wl))
-# print("Enum total: ", min(min_total_wl))
+testDME(nodes, x_bound, y_bound,"Bi-Cluster",topClusterTopo,True)

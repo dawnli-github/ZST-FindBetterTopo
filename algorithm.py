@@ -4,6 +4,7 @@ from shapely.ops import nearest_points
 from graphviz import Digraph
 from sklearn.cluster import KMeans
 import numpy as np
+from sklearn import svm
 
 # Polygon Method
 

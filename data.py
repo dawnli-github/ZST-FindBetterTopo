@@ -1,4 +1,16 @@
 from shapely.geometry import Point, LineString, Polygon
+import time
+
+
+class Timer:
+
+    def start(self):
+        self.start = time.perf_counter()
+
+    def printTime(self, msg):
+        self.end = time.perf_counter()
+        print("[" + msg + "] Using Time: ", self.end - self.start)
+        print("------------------------------------\n")
 
 
 class DMENode:
@@ -22,6 +34,5 @@ class DMENode:
         self.id = 0
 
     def log(self, title="Root"):
-        print("\n[" + title + "] sub wirelength: ", self.sub_wl)
-        print("[" + title + "] total: ", self.total_wl, "\n")
-        print("------------------------------------")
+        print("\n[" + title + "] Sub Wirelength: ", self.sub_wl)
+        print("[" + title + "] Total: ", self.total_wl)
